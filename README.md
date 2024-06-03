@@ -1,4 +1,4 @@
-# Project Name
+# Week 3.1: Tool Calling
 
 ## Introduction
 Gain insights into how tool calling transforms interactions with LLMs, enabling structured outputs like dictionaries for enhanced API interaction, code execution, and JSON object creation.
@@ -68,7 +68,7 @@ To use any tools inside the tool_lib, you need to attach them to an agent. Follo
 
 1. Copy the Function from `tool_lib` to Your Agent Script.
 
-2. Annotate the copied function with the @tool decorator.
+2. Annotate the copied function with the `@tool` decorator.
 
 3. Add the annotated function to your agent's toolkit.
 
